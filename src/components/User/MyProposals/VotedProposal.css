@@ -1,0 +1,17 @@
+.voted-proposal {
+  margin-top: 3rem;
+}
+.votedPlus,
+.vote-count {
+  color: #ff00b8;
+}
+.votedMinus {
+  color: #151371;
+}
+.view--proposal__btn {
+    background: #151371 !important;
+    border-radius:0px !important;
+    color: #fff !important;
+    font-family: Red Hat Display;
+    padding:8px 20px !important;
+}

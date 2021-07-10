@@ -1,39 +1,86 @@
-.App {
+.general {
+  margin: -20rem 5rem 0;
+  padding: 0 0 3rem;
+}
+.task--wrapper {
+  /* min-height: 200vh; */
+  position: relative;
+}
+.task {
+  background: linear-gradient(90deg, #ff00b8 0%, #ff655b 50.8%, #ffc700 100%);
+}
+.task--header img {
+  width: 100%;
+}
+.elect--proposals {
+  min-height: 100vh;
+  padding-bottom: 3rem;
+}
+.elect-proposal--page {
+  margin: 3rem 3rem 0;
+  background: rgba(21, 19, 113, 0.7);
+  mix-blend-mode: normal;
+  border-radius: 30px;
+  padding: 2rem 2rem 1rem;
+}
+.elect--proposal__wrapper {
+  margin: 2rem 0;
+}
+.elect-proposal--page > h1,
+.elect-proposal--page > p {
+  color: #fff;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.elect-proposal--page > h1 {
+  text-transform: uppercase;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
+.voted--revoted__page h1,
+.voted--revoted__page p,
+.approved--proposal__page h1,
+.approved--proposal__page p,
+.rejected--proposal__page h1,
+.rejected--proposal__page p {
+  text-align: start;
+}
+.approved--proposal__page {
+  background: rgba(102, 102, 102, 0.6);
+}
+.rejected--proposal__page {
+  background: rgba(0, 0, 0, 0.5);
+}
+.notification__new,
+.notification__earlier {
+  margin: 3rem 3rem 1rem !important;
+}
+.core-team-todo__tasks {
+  margin: 3rem 3rem 0 !important;
+}
+.core-team-todo__tasks .task--sub__task {
+  margin: 0 !important;
+}
+.change--status__tasks {
+  padding-bottom: 3rem;
+}
+.my--elected-proposals {
+  margin: 3rem 3rem 0;
+  padding:2rem;
+  background: rgba(40, 40, 40, 0.9);
+  mix-blend-mode: normal;
+  border-radius: 30px;
+}
+.my--elected-proposals .single--proposal:nth-child(1),
+.my--elected-proposals .single--proposal:nth-child(2) {
+  opacity: 0.2;
+}
+.my-elected {
+  padding-bottom:3rem
+}
+@media only screen and (max-width: 867px) {
+  .general {
+    margin: -20rem 1rem 0;
   }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
+  
+  .elect-proposal--page {
+    margin: 1rem;
   }
 }

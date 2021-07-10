@@ -1,0 +1,174 @@
+[
+    {
+        "tasks": [
+            {
+                "id": 1,
+                "createdDate": "Mar 25",
+                "users": [
+                    {
+                        "id": 1,
+                        "url": "./img/pPhoto.png"
+                    }
+                ],
+                "text": "Lorem ipsum dolor sit amet, consecte tur adipiscing elit."
+            },
+            {
+                "id": 2,
+                "createdDate": "Mar 25",
+                "users": [
+                    {
+                        "id": 1,
+                        "url": "../../../img/pPhoto.png"
+                    },
+                    {
+                        "id": 2,
+                        "url": "../../../img/pPhoto.png"
+                    }
+                ],
+                "text": "Lorem ipsum dolor sit amet, consecte tur adipiscing elit."
+            },
+            {
+                "id": 3,
+                "createdDate": "Mar 25",
+                "users": [
+                    {
+                        "id": 1,
+                        "url": "./img/pPhoto.png"
+                    }
+                ],
+                "text": "Lorem ipsum dolor sit amet, consecte tur adipiscing elit."
+            },
+            {
+                "id": 4,
+                "createdDate": "Mar 25",
+                "users": [
+                    {
+                        "id": 1,
+                        "url": "../../../img/pPhoto.png"
+                    },
+                    {
+                        "id": 2,
+                        "url": "../../../img/pPhoto.png"
+                    }
+                ],
+                "text": "Lorem ipsum dolor sit amet, consecte tur adipiscing elit."
+            }
+        ]
+    },
+    {
+        "proposals": [
+            {
+                "id": 1,
+                "proposalTitle": "Proposal Title",
+                "daysToLeft": 1,
+                "type": "Enhacment",
+                "category": "Incubator",
+                "createdBy": "Username",
+                "createdDate": "Mar 25",
+                "replies": 58,
+                "totalVotes": 267,
+                "views": 85,
+                "approvedStatus": null,
+                "completedStatus": 34,
+                "earned": 20,
+                "text": "Details about proposal - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare ullamcorper tellus, vel euismod odio posuere ut. Quisque quis lacinia tortor. Donec auctor consectetur nibh, eu varius mi porta nec. Quisque ultricies odio vitae nibh malesuada tristique vel sed leo. Donec egestas, urna eu auctor ultricies, massa lorem pellentesque quam, vitae congue urna quam ultricies ex."
+            },
+            {
+                "id": 2,
+                "proposalTitle": "Proposal Title",
+                "daysToLeft": 2,
+                "type": "Enhacment",
+                "category": "Incubator",
+                "createdBy": "Username",
+                "createdDate": "Mar 25",
+                "replies": 58,
+                "totalVotes": 267,
+                "views": 85,
+                "approvedStatus": true,
+                "completedStatus": 34,
+                "earned": 10,
+                "text": "Details about proposal - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare ullamcorper tellus, vel euismod odio posuere ut. Quisque quis lacinia tortor. Donec auctor consectetur nibh, eu varius mi porta nec. Quisque ultricies odio vitae nibh malesuada tristique vel sed leo. Donec egestas, urna eu auctor ultricies, massa lorem pellentesque quam, vitae congue urna quam ultricies ex."
+            },
+            {
+                "id": 3,
+                "proposalTitle": "Proposal Title",
+                "daysToLeft": 3,
+                "type": "Enhacment",
+                "category": "Incubator",
+                "createdBy": "Username",
+                "createdDate": "Mar 25",
+                "replies": 58,
+                "totalVotes": 267,
+                "views": 80,
+                "approvedStatus": null,
+                "completedStatus": 67,
+                "earned": 10,
+                "text": "Details about proposal - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare ullamcorper tellus, vel euismod odio posuere ut. Quisque quis lacinia tortor. Donec auctor consectetur nibh, eu varius mi porta nec. Quisque ultricies odio vitae nibh malesuada tristique vel sed leo. Donec egestas, urna eu auctor ultricies, massa lorem pellentesque quam, vitae congue urna quam ultricies ex."
+            },
+            {
+                "id": 4,
+                "proposalTitle": "Proposal Title",
+                "daysToLeft": 2,
+                "type": "Enhacment",
+                "category": "Incubator",
+                "createdBy": "Username",
+                "createdDate": "Mar 25",
+                "replies": 58,
+                "totalVotes": 267,
+                "views": 85,
+                "approvedStatus": null,
+                "completedStatus": 2,
+                "earned": 10,
+                "text": "Details about proposal - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare ullamcorper tellus, vel euismod odio posuere ut. Quisque quis lacinia tortor. Donec auctor consectetur nibh, eu varius mi porta nec. Quisque ultricies odio vitae nibh malesuada tristique vel sed leo. Donec egestas, urna eu auctor ultricies, massa lorem pellentesque quam, vitae congue urna quam ultricies ex."
+            },
+            {
+                "id": 5,
+                "proposalTitle": "Proposal Title",
+                "daysToLeft": 5,
+                "type": "Enhacment",
+                "category": "Incubator",
+                "createdBy": "Username",
+                "createdDate": "Mar 25",
+                "replies": 58,
+                "totalVotes": 267,
+                "views": 85,
+                "approvedStatus": false,
+                "completedStatus": 34,
+                "earned": 8,
+                "text": "Details about proposal - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare ullamcorper tellus, vel euismod odio posuere ut. Quisque quis lacinia tortor. Donec auctor consectetur nibh, eu varius mi porta nec. Quisque ultricies odio vitae nibh malesuada tristique vel sed leo. Donec egestas, urna eu auctor ultricies, massa lorem pellentesque quam, vitae congue urna quam ultricies ex."
+            },
+            {
+                "id": 6,
+                "proposalTitle": "Proposal Title",
+                "daysToLeft": 5,
+                "type": "Enhacment",
+                "category": "Incubator",
+                "createdBy": "Username",
+                "createdDate": "Mar 25",
+                "replies": 58,
+                "totalVotes": 267,
+                "views": 85,
+                "approvedStatus": true,
+                "completedStatus": 34,
+                "earned": 10,
+                "text": "Details about proposal - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare ullamcorper tellus, vel euismod odio posuere ut. Quisque quis lacinia tortor. Donec auctor consectetur nibh, eu varius mi porta nec. Quisque ultricies odio vitae nibh malesuada tristique vel sed leo. Donec egestas, urna eu auctor ultricies, massa lorem pellentesque quam, vitae congue urna quam ultricies ex."
+            },
+            {
+                "id": 7,
+                "proposalTitle": "Proposal Title",
+                "daysToLeft": 5,
+                "type": "Enhacment",
+                "category": "Incubator",
+                "createdBy": "Username",
+                "createdDate": "Mar 25",
+                "replies": 58,
+                "totalVotes": 267,
+                "views": 85,
+                "approvedStatus": null,
+                "completedStatus": 100,
+                "earned": 6,
+                "text": "Details about proposal - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare ullamcorper tellus, vel euismod odio posuere ut. Quisque quis lacinia tortor. Donec auctor consectetur nibh, eu varius mi porta nec. Quisque ultricies odio vitae nibh malesuada tristique vel sed leo. Donec egestas, urna eu auctor ultricies, massa lorem pellentesque quam, vitae congue urna quam ultricies ex."
+            }
+        ]
+    }
+]

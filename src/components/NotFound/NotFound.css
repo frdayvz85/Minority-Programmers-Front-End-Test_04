@@ -1,0 +1,27 @@
+.notfound {
+    min-height:100vh;
+    background: linear-gradient(90deg, #FF00B8 0%, #FF655B 50.8%, #FFC700 100%);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notfound h1 {
+    font-family: Red Hat Display;
+    color: #fff;
+    text-align: center;
+}
+.notfound a {
+    text-decoration: none;
+    font-family: Red Hat Display;
+    color: #fff;
+    font-size:1.5rem;
+    transition:150ms ease-in-out;
+    background: rgba(24, 21, 21, 0.4);
+    padding:12px 20px;
+    margin-top:1.6rem;
+}
+.notfound a:hover {
+    background: rgba(24, 21, 21, 0.6);
+}

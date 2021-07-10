@@ -1,0 +1,53 @@
+.proposal--top {
+  background: rgba(255, 255, 255, 0.8);
+  mix-blend-mode: normal;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+}
+.proposal--text {
+  flex: 2;
+  text-align: center;
+  position: relative;
+}
+.proposal--text h1 {
+  font-size: 3rem;
+  position: relative;
+}
+.proposal--text p {
+  font-size: 1.5rem;
+}
+.proposal--image {
+  flex: 1;
+}
+.proposal--image img {
+}
+.proposal--text img {
+  position: absolute;
+  top: -40%;
+  margin-left: -20px;
+}
+.view__task--page {
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+.notifaction--page {
+  background: rgba(0, 0, 0, 0.8);
+  mix-blend-mode: normal;
+  color: #fff;
+  min-height: 50vh;
+  text-align: center;
+}
+.orange {
+  color: orange;
+}
+@media only screen and (max-width: 867px) {
+  .proposal--text {
+    display: none;
+  }
+  .proposal--text img {
+    object-fit: contain;
+  }
+}

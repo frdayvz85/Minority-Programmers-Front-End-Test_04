@@ -1,0 +1,43 @@
+.home--page {
+  min-height: 100vh;
+  background: linear-gradient(90deg, #ff00b8 0%, #ff655b 50.8%, #ffc700 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.home--page h1 {
+  font-family: Red Hat Display;
+  color: #fff;
+  text-transform: uppercase;
+}
+.home--page .company--name {
+  font-weight: 600;
+}
+.pages {
+  display: flex;
+  justify-content: center;
+}
+.page {
+  margin: 2rem;
+}
+.page a {
+  text-decoration: none;
+  font-family: Red Hat Display;
+  color: #fff;
+  font-size: 1.5rem;
+  transition: 150ms ease-in-out;
+  background: rgba(24, 21, 21, 0.4);
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+.page a:hover {
+  background: rgba(24, 21, 21, 0.6);
+}
+@media only screen and (max-width: 867px) {
+  .pages {
+    flex-direction: column;
+    text-align: center;
+  }
+}

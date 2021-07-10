@@ -1,0 +1,21 @@
+.proposal--container {
+  padding: 4rem;
+}
+.proposal--content {
+  background: rgba(40, 40, 40, 0.9);
+  mix-blend-mode: normal;
+  border-radius: 30px;
+  padding:2.5rem;
+}
+.voted-container {
+  margin-top: 4rem;
+}
+.voted-container h1 {
+  color: #fff;
+  font-size:1.7rem;
+}
+@media only screen and (max-width: 867px) {
+  .proposal--container {
+    padding: 4rem 1rem;
+  }
+}

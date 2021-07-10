@@ -1,0 +1,35 @@
+.proposal--aproved {
+  display: flex !important;
+  text-align: center;
+}
+.proposal--aproved .views {
+  margin-left: 2rem;
+}
+
+.single--aproved--proposal {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-left: 6px solid #ff00b8;
+  border-right: 6px solid #ff00b8;
+}
+.single--aproved--proposal:not(:first-child) {
+  margin-top: 2.5rem;
+}
+.aproved__btns {
+  margin-right: 4rem;
+}
+.aproved__btns button {
+  width: 150px;
+}
+
+@media only screen and (max-width: 867px) {
+  .single--aproved--proposal {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}

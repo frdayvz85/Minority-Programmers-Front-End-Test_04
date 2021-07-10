@@ -1,0 +1,8 @@
+#header {
+    background: linear-gradient(90deg, #FF00B8 0%, #FF655B 50.8%, #FFC700 100%);
+    height:15vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    position: relative;
+}

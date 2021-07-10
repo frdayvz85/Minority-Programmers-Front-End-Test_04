@@ -1,0 +1,61 @@
+#header {
+  background: linear-gradient(90deg, #ff00b8 0%, #ff655b 50.8%, #ffc700 100%);
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top__header {
+  width: 80vw;
+  margin: 0 auto;
+}
+.top__header-container {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+}
+.logo {
+  width: 79px;
+  height: 49px;
+  cursor: pointer;
+}
+.top__header-right {
+  display: flex;
+  grid-gap: 15px;
+  list-style-type: none;
+  align-items: center;
+  height: 10vh;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.connect__wallet-btn {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #fff;
+}
+.vote-btn {
+  color: #ff655b;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+.fa-check-btn {
+  margin-right: 2px;
+}
+.fas {
+  color: #fff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 867px) {
+  .top__header-right {
+    display: none;
+  }
+}

@@ -1,0 +1,155 @@
+.new-task {
+  background: rgba(255, 255, 255, 0.95);
+  mix-blend-mode: normal;
+  border-radius: 0px;
+  margin: 5rem 0 0;
+  padding: 2rem;
+  border-left: 4px solid #151371;
+  border-right: 4px solid #151371;
+}
+.new-task__contents {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.4rem 0;
+  cursor: pointer;
+}
+.new--task__icons li:not(:last-child) {
+  background: rgba(20, 20, 113, 0.6);
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 50%;
+  align-self: center;
+}
+.new--task__icons li:last-child {
+  color: blue;
+  padding: 8px 10px;
+  position: relative;
+  mix-blend-mode: normal;
+  align-self: center;
+}
+
+.new--task__icons li:last-child span {
+  position: absolute;
+  top: -2%;
+  font-size: 1.125rem;
+}
+.new--task__icons li:not(:first-child) {
+  margin-left: 12px;
+}
+
+.new--task__icons {
+  display: flex;
+  list-style: none;
+}
+.task__for--user__details,
+.for--users,
+.task--header__yellow {
+  display: flex;
+  align-items: center;
+}
+.new-task h1 {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.new-task .fa-circle {
+  color: #ffc700;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+.search--list {
+  position: relative;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+.search--list .fa-search {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  color: grey;
+}
+.search--list input {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 4px 10px 4px 25px;
+  outline: none;
+}
+.search--list input::placeholder {
+  font-family: Red Hat Display;
+}
+.for--users {
+  align-self: center;
+}
+.for--users span {
+  margin-right: 5px;
+}
+.for--users p {
+  position: relative;
+  font-size: 2rem;
+}
+.for--users p span {
+  position: absolute;
+  bottom: 10%;
+  font-size: 1.125rem;
+}
+.taskk--add textarea {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  border-radius: 0px 0px 8px 8px;
+  padding: 8px 10px;
+  resize: vertical;
+}
+.taskk--add textarea::placeholder {
+  font-family: Red Hat Display;
+  letter-spacing: 1px;
+}
+.task__small--content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 2rem;
+}
+
+.task__small--content .fa--plus {
+  background: rgba(255, 0, 184, 0.6);
+  color: #fff;
+  margin: 0 5px;
+  padding: 4px 4px 1px;
+  border-radius: 3px;
+}
+.task--attachments,
+.create--btn {
+  padding: 0.6rem 2rem;
+}
+.task--attachments button {
+  width: max-content;
+  padding: 5px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Red Hat Display;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.task--attachments .fa-angle-down {
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 5px;
+}
+.create--btn {
+  text-align: end;
+}
+.create--btn button {
+  background: #151371;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding:8px 25px;
+  color: #fff;
+  font-family: Red Hat Display;
+}

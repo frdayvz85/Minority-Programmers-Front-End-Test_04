@@ -1,0 +1,30 @@
+.proposal--status__type {
+  background: rgba(255, 255, 255, 0.6);
+  margin-top: 4rem;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.proposal--status__type h1 {
+  color: #151371;
+  text-transform: uppercase;
+}
+.proposal--status__type p {
+  padding: 1rem 0;
+}
+.proposal--status__type button {
+  background: #8685b2;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  padding: 9px 25px;
+  border: none;
+  outline: none;
+  font-family: Red Hat Display;
+}
+.btn-progress {
+  text-decoration: none;
+  background: #151371;
+  border-radius: 6px;
+  color: #fff;
+  padding: 8px 22px;
+}

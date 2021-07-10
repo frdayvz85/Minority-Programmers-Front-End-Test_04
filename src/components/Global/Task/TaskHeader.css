@@ -1,0 +1,22 @@
+.task--header {
+    background-color: #151371;
+    height:400px;
+    /* background-image: url('../../../img/createtaskback.png');
+    background-size: cover;
+    position: relative; */
+
+}
+/* .task--header::after {
+    content: "";
+    background-color: #151371;
+    background-image: url('../../../img/createtaskback.png');
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height:350px;
+    width: 100%;
+    z-index: 0;
+} */

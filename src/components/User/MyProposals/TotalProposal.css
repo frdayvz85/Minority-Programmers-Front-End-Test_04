@@ -1,0 +1,85 @@
+.total--proposal {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  background: #e3e3e3;
+  margin-top: 2.5rem;
+  height: 240px;
+}
+.total--proposal__text {
+  background: #151371;
+  border: 2px solid #e3e3e3;
+  box-sizing: border-box;
+  position: relative;
+  height: 240px;
+}
+.total--proposal__text img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.total--proposal__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-family: Red Hat Display;
+}
+.total--proposal__content button {
+  background: #e3e3e3;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  padding: 7px 12px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  font-family: Red Hat Display;
+  cursor: pointer;
+}
+.total--amount {
+  border-top: 1px solid #000000;
+}
+.total--proposal__amount {
+  text-align: end;
+  font-family: Red Hat Display;
+  color: #282828;
+}
+.total--proposal__amount > p:first-child {
+  margin: 2rem 3rem 0.2rem;
+}
+.total--proposal__amount > p:nth-child(2) {
+  margin: 0.5rem 3rem 0.2rem;
+}
+.total--proposal__amount > p:nth-child(3) {
+  margin: 0.5rem 3rem 2rem;
+}
+.total--amount p {
+  color: #151371;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 1.6rem 3rem 0rem;
+}
+.blue {
+  color: #151371;
+  font-weight: bold;
+}
+.lightblue {
+  color: #35349e;
+  font-weight: bold;
+}
+@media only screen and (max-width: 967px) {
+  .total--proposal {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .total--amount p {
+    margin: 0.5rem 3rem 0.5rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+    .total--amount p {
+      margin: 0.5rem 3rem 0.5rem;
+      font-size: 0.9rem;
+    }
+  }
